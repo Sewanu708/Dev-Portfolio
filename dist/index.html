@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    
+  </head>
+  <body class="p-0 m-0 box-border max-w-[2000px]">
+    <div class="sidebar w-[300px] hidden drop-shadow-2xl h-screen bg-[#292F36] fixed z-50 py-10 px-8">
+      <div
+        class="font-plex text-[18px] font-[500] mb-[64px] text-[#12F7D6]"
+      >
+        &lt;C/&gt; <span class="text-white">Sewanu Isaiah</span>
+        
+      </div>
+      <div class="absolute top-[10px] right-4 cursor-pointer">
+        <i class="fa-solid fa-close text-[#12F7D6] transition-all duration-150 ease-in hover:text-[#275a52]" id="close"></i>
+      </div>
+      <div class="flex text-white gap-x-5 w-full items-center justify-start pl-8 rounded-xl h-[50px] cursor-pointer hover:bg-gray-200 hover:text-[#12f7d6] font-plex text-[18px] mb-[32px]" id="home">
+        <p><i class="fa-solid fa-house"></i></p>
+        <p class="font-extrabold ">Home</p>
+      </div>
+      <div class="flex text-white gap-x-5 w-full items-center justify-start pl-8 rounded-xl cursor-pointer h-[50px] hover:bg-gray-200 hover:text-[#12f7d6] font-plex text-[18px] mb-[32px]" id="projects">
+        <p><i class="fa-solid fa-briefcase"></i></i></p>
+        <p class="font-extrabold">Projects</p>
+      </div>
+      <div class="flex text-white cursor-pointer gap-x-5 w-full items-center justify-start pl-8 rounded-xl h-[50px] hover:bg-gray-200 hover:text-[#12f7d6] font-plex text-[18px] mb-[32px]" id="about">
+        <p><i class="fa-regular fa-address-card"></i></i></p>
+        <p class="font-extrabold">About</p>
+      </div>
+      <div class="flex text-white cursor-pointer gap-x-5 w-full items-center justify-start pl-8 rounded-xl h-[50px] hover:bg-gray-200 hover:text-[#12f7d6] font-plex text-[18px] mb-[32px]" id="contact">
+        <p><i class="fa-solid fa-phone"></i></p>
+        <p class="font-extrabold">Contact</p>
+      </div>
+    </div>
+    <nav
+      class="bg-[#292F36] px-4 xsm:px-[32px] sm:px-[64px] lg:px-[128px] py-[32px] sm:py-[64px] flex justify-between items-center"
+    >
+      <div
+        class="font-plex text-[24px] 2xl:text-[32px] font-[500] text-[#12F7D6]"
+      >
+        &lt;C/&gt; <span class="text-white">Sewanu Isaiah</span>
+      </div>
+
+      <div class="hidden items-center gap-x-8 text-white 2xl:flex">
+        <div class="font-plex text-[24px]">Home</div>
+        <div class="pr-8 font-plex text-[24px]">Blogs</div>
+        <div class="font-plex">
+          <i class="fa-brands fa-instagram text-[#12F7D6]"></i>
+          <span class="hidden 2xl:inline">Instagram</span>
+        </div>
+        <div>
+          <i class="fa-brands fa-discord text-[#12F7D6]"></i>
+          <span class="hidden 2xl:inline">Discord</span>
+        </div>
+        <div>
+          <i class="fa-brands fa-github text-[#12F7D6]"></i>
+          <span class="hidden 2xl:inline">Github</span>
+        </div>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-bars text-[24px] 2xl:text-[32px] cursor-pointer  text-[#12F7D6] transition-all duration-150 ease-in hover:text-[#275a52]" id="bars"></i>
+      </div>
+    </nav>
+    
+
+    </div>
+    <section
+      class="flex items-center justify-start gap-x-[64px] px-4 xsm:px-[32px] sm:px-[64px] lg:px-[128px] py-[64px] bg-[#292F36] home" 
+    >
+      <div class="w-full flex flex-col md:flex-row md:justify-between justify-center items-center md:items-start gap-y-[64px]">
+        <div class=" w-full md:w-[60%]">
+          <div>
+            <span class="font-plex text-[14px] text-[#12f7d6]">
+              &lt;h1&gt;</span
+            >
+            <p class="leading-12 pl-4">
+             
+              <span class=" text-[32px] xsm:text-[64px] font-ubuntu text-white pt-2">
+                Hey <br />
+                <span> I'm </span>
+                <span class="text-[#12f7d6] font-ubuntu"
+                  >Sewanu</span
+                >
+                <br />
+                <span>Front-End Developer</span>
+              </span>
+              <span class="font-plex text-[14px] text-[#12f7d6]">
+                &lt;/h1&gt;</span
+              >
+            </p>
+          </div>
+          <div>
+            <span class="font-plex text-[14px] text-[#12f7d6]">&lt;p&gt;</span>
+            <p class="pl-4">
+              <span class="font-plex text-white py-2">
+                I help business grow by crafting amazing web experiences. If
+                you’re looking for a developer that likes to get stuff done.
+              </span>
+              <br />
+            </p>
+            <span class="font-plex text-[14px] text-[#12f7d6]">
+              &lt;/p&gt;</span
+            >
+          </div>
+          <div>
+            <p
+              class="text-[#12f7d6] font-plex text-[32px] flex items-center justify-start gap-x-4"
+            >
+              Let's Talk
+              <span
+                class="w-[40px] h-[40px] rounded-full inline-flex bg-[#43454D] justify-center items-center"
+              >
+                <i
+                  class="fa-solid fa-envelope text-[24px] text-[#12f7d6] hover:scale-90"
+                >
+                </i>
+              </span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="flex flex-col gap-y-[48px] items-center justify-center bg-[#1A1E23] px-[32px] py-[48px] w-[215px] rounded-[80px]"
+        >
+          <div class="flex justify-center items-center gap-x-4">
+            <p class="text-[#12f7d6] font-plex font-[500] text-[48px]">4</p>
+            <p class="font-plex text-white">Programming Language</p>
+          </div>
+          <div class="flex justify-center items-center gap-x-4">
+            <p class="text-[#12f7d6] font-plex font-[500] text-[48px]">6</p>
+            <p class="font-plex text-white">Development Tools</p>
+          </div>
+          <div class="flex justify-center items-center gap-x-4">
+            <p class="text-[#12f7d6] font-plex font-[500] text-[48px]">8</p>
+            <p class="font-plex text-white">Years of Experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="about"
+      style="background-image: url('../src/images/image_fx_ (80).jpg')"
+    >
+      <div
+        class="w-full bg-[rgba(41,47,54,0.92)] px-4 xsm:px-[32px] sm:px-[64px] lg:px-[128px] py-[64px]"
+      >
+        <div class="flex flex-col gap-y-0.5 justify-center items-center mb-8">
+          <img src="../src/images/Scroll.png" alt="" />
+        </div>
+        <div class="flex justify-start items-center sm:justify-center">
+          <div
+            class="border-4 w-fit inline-block rounded-tl-[40px] rounded-br-[40px] border-[#12F7D6] text-[32px] xsm:text-[64px] font-plex text-white p-4 mx-auto"
+          >
+            About Me
+          </div>
+        </div>
+
+        <div
+          class="w-[100%] rounded-4xl bg-[#292f36] h-auto mx-auto mt-8 p-4 font-plex"
+        >
+          <span class="block text-[#12F7D6] text-[14px] mb-2"> &lt;p&gt; </span>
+          <span class="block text-[#12F7D6] text-[32px] font-medium">
+            Hello!
+          </span>
+          I’m Sewanu Isaiah, a Front-End Developer with a passion for crafting interactive and user-friendly web experiences. I specialize in <span class="text-[#12F7D6]"> HTML, CSS, tailwind JavaScript, and React.js, </span> continuously refining my skills to build modern, responsive, and high-performance applications.
+
+          I have experience working with JavaScript modules, APIs, and state management, and I’m currently deepening my knowledge of backend interactions and frontend optimizations. My approach to development focuses on clean code, intuitive UI/UX, and efficient performance.
+          
+          Beyond web development, I’ve explored machine learning, working on classification, regression, and recognition projects to analyze data and build predictive models. However, my main focus remains on developing scalable front-end applications that enhance user experiences.
+          <span class="block text-[#12F7D6] mt-4"> &lt;/p&gt; </span>
+        </div>
+
+        <div class="flex items-center justify-center mt-10">
+          <img
+            src="../src/images/Image.png"
+            alt=""
+            class="w-[300px] h-[450px]"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="bg-cover bg-no-repeat bg-center w-full relative h-auto projects"
+      style="background-image: url('../src/images/image_fx_\ \(81\).jpg')"
+    >
+      <div
+        class="bg-[rgba(41,47,54,0.7)] w-full h-full px-4 xsm:px-[32px] sm:px-[64px] lg:px-[128px] py-[64px]"
+      >
+        <div
+          class="capitalize text-[#12F7D6] font-ubuntu text-[32px] xsm:text-[64px] w-full text-center"
+        >
+          projects
+        </div>
+        <div class="font-plex w-full text-center text-white">
+          Here are some of the selected projects that showcase my passion for
+          front-end development.
+        </div>
+        <div
+          class="w-[100%] rounded-4xl bg-[#292f36] h-auto mx-auto flex flex-col gap-y-[70px] mt-8 p-8"
+        >
+          <div class="flex md:flex-row gap-y-[64px] flex-col justify-between items-start">
+            <div class="md:w-[55%] w-full  h-auto">
+              <img class="w-full h-full" src="../src/images/Homepage mockup.png" alt="" />
+            </div>
+
+            <div class="md:w-[40%] w-full">
+              <div class="text-[white] font-plex leading-10 text-[28px] mb-4">
+                E-commerce Product Display Web App
+              </div>
+              <p class="text-[#C7C7C7] font-plex mb-3">
+                Implemented a fully responsive product listing page using <span class="text-[#12F7D6]">HTML, CSS, JS</span>
+              </p>
+
+              <div
+                class="uppercase border-b border-[#C7C7C7] text-[#C7C7C7] font-plex"
+              >
+                Project INFo
+              </div>
+              <div
+                class="flex justify-between text-white font-plex border-b border-[#C7C7C7] mt-2"
+              >
+                <p>Year</p>
+                <p>2024</p>
+              </div>
+              <div
+                class="flex justify-between text-white border-b border-[#C7C7C7] font-plex mt-2"
+              >
+                <p>Role</p>
+                <p>Front-End Developer</p>
+              </div>
+
+              <div class="flex mt-6 gap-x-4">
+                <a href="https://sewanu708.github.io/Exclusive-/" class="text-[#12F7D6]"
+                  >Live Demo
+                  <span
+                    ><i
+                      class="fa-solid fa-arrow-up-right-from-square"
+                    ></i></span
+                ></a>
+                <a href="https://github.com/Sewanu708/Exclusive-" class="text-[#12F7D6]"
+                  >Github Repo
+                  <span class=""><i class="fa-brands fa-github"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="flex md:flex-row gap-y-[64px] flex-col justify-between items-start">
+            <div class="md:w-[55%] w-full  h-auto">
+              <img class="w-full h-full" src="../src/images/Home-screen.png" alt="" />
+            </div>
+
+            <div class="md:w-[40%] w-full">
+              <div class="text-[white] font-plex leading-10 text-[28px] mb-4">
+                Movie Web App
+              </div>
+              <p class="text-[#C7C7C7] font-plex mb-3">
+                Developed a fully responsive move web application using <span class="text-[#12F7D6]">React.js and Tailwind</span> fetching data from an
+<span class="text-[#12F7D6]">external API</span>. Utilizing react hooks and state management for effiecient performance
+              </p>
+
+              <div
+                class="uppercase border-b border-[#C7C7C7] text-[#C7C7C7] font-plex"
+              >
+                Project INFo
+              </div>
+              <div
+                class="flex justify-between text-white font-plex border-b border-[#C7C7C7] mt-2"
+              >
+                <p>Year</p>
+                <p>2024</p>
+              </div>
+              <div
+                class="flex justify-between text-white border-b border-[#C7C7C7] font-plex mt-2"
+              >
+                <p>Role</p>
+                <p>Front-End Developer</p>
+              </div>
+
+              <div class="flex mt-6 gap-x-4">
+                <a href="https://movie-app-nmmu.vercel.app/" class="text-[#12F7D6]"
+                  >Live Demo
+                  <span
+                    ><i
+                      class="fa-solid fa-arrow-up-right-from-square"
+                    ></i></span
+                ></a>
+                <a href="https://github.com/Sewanu708/Movie-app" class="text-[#12F7D6]"
+                  >Github Repo
+                  <span class=""><i class="fa-brands fa-github"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="flex md:flex-row gap-y-[64px] flex-col justify-between items-start">
+            <div class="md:w-[55%] w-full  h-auto">
+              <img class="w-full h-full" src="../src/images/NFT Marketplace - 1x1 Cover.png" alt="" />
+            </div>
+
+            <div class="md:w-[40%] w-full">
+              <div class="text-[white] font-plex leading-10 text-[28px] mb-4">
+               NFT Webpage
+              </div>
+              <p class="text-[#C7C7C7] font-plex mb-3">
+                Developed a visually appealing and responsive NFT webpage using <span class="text-[#12F7D6]">HTML and CSS</span> ,
+showcasing digital collectibles with a modern UI
+              </p>
+
+              <div
+                class="uppercase border-b border-[#C7C7C7] text-[#C7C7C7] font-plex"
+              >
+                Project INFo
+              </div>
+              <div
+                class="flex justify-between text-white font-plex border-b border-[#C7C7C7] mt-2"
+              >
+                <p>Year</p>
+                <p>2024</p>
+              </div>
+              <div
+                class="flex justify-between text-white border-b border-[#C7C7C7] font-plex mt-2"
+              >
+                <p>Role</p>
+                <p>Front-End Developer</p>
+              </div>
+
+              <div class="flex mt-6 gap-x-4">
+                <a href="#" class="text-[#12F7D6]"
+                  >Live Demo
+                  <span
+                    ><i
+                      class="fa-solid fa-arrow-up-right-from-square"
+                    ></i></span
+                ></a>
+                <a href="#" class="text-[#12F7D6]"
+                  >Github Repo
+                  <span class=""><i class="fa-brands fa-github"></i></span
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#292F36] px-4 xsm:px-[32px] sm:px-[64px] lg:px-[128px] py-[64px] contact">
+      <div class="flex flex-col gap-y-0.5 justify-center items-center">
+        <img src="../src/images/Scroll.png" alt="" />
+      </div>
+
+      <div
+        class="w-fit mt-[32px] font-ubuntu text-[64px] text-[#12F7D6] mx-auto"
+      >
+        Contact
+      </div>
+      <div class="flex items-center justify-center gap-x-[200px] relative">
+        <div
+          class="inline-flex z-50 w-[10px] h-[10px] rounded-full bg-[#12F7D6]"
+        ></div>
+        <div class="absolute bottom-[2px] text-[#12f7d6]">
+          ________________________________
+        </div>
+        <div
+          class="inline-flex z-50 w-[10px] h-[10px] rounded-full bg-[#12F7D6]"
+        ></div>
+      </div>
+      <p class="font-plex text-white w-fit mx-auto">
+        I'm currently available for freelance and full time role
+      </p>
+      <div>
+        <div class="flex gap-x-4 w-fit mx-auto mt-4">
+          <a
+            href=""
+            class="w-[40px] h-[40px] rounded-full bg-[#98FAEC] flex items-center justify-center"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a
+            href=""
+            class="w-[40px] h-[40px] rounded-full bg-[#98FAEC] flex items-center justify-center"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href=""
+            class="w-[40px] h-[40px] rounded-full bg-[#98FAEC] flex items-center justify-center"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
+      <div
+        class="w-fit mt-[64px] rounded-tl-4xl rounded-br-4xl border-[#12F7D6] text-center text-[24px] xsm:text-[32px] font-plex text-white p-4 border-4 capitalize mx-auto"
+      >
+        Send me a message
+      </div>
+
+      <form action="" id="contact-form">
+        <div
+          class="grid grid-cols-2 gap-y-[64px] mt-[64px] w-fit mx-auto gap-x-[32px] lg:gap-x-[128px]"
+        >
+          <div class="flex flex-col justify-start items-start gap-y-[24px]">
+            <label for="name" class="text-[#12F7D6]">Your name *</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+              class="border-b jjj border-[#12F7D6] focus:outline-0 focus:border-0 placeholder:text-white text-white w-full"
+              required
+            />
+          </div>
+          <div class="flex flex-col justify-start items-start gap-y-[24px]">
+            <label for="mail" class="text-[#12F7D6]">Your Email *</label>
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              class="border-b border-[#12F7D6] focus:outline-0 focus:border-0 text-white placeholder:text-white w-full"
+              required
+              placeholder="Enter your mail"
+            />
+          </div>
+          <div class="flex flex-col justify-start items-start gap-y-[24px]">
+            <label for="message" class="text-[#12F7D6]">Your Message *</label>
+            <textarea
+              placeholder="Your Needs"
+              id="message"
+              class="border-b text-white border-[#12F7D6] focus:outline-0 focus:border-0 placeholder:text-white w-full"
+             required ></textarea>
+          </div>
+        </div>
+        <button
+          type="submit"
+          class="py-4 px-8 rounded-[40px] cursor-pointer hover:scale-95 hover:bg-[#264944] bg-[#12F7D6] text-[#292F36] text-[24px] font-ubuntu transition-all ease-in duration-150 block mx-auto mt-8"
+         id="submit" >
+          Send Message
+          <span class="text-black"
+            ><i class="fa-solid fa-paper-plane"></i
+          ></span>
+        </button>
+      </form>
+
+      <div class="border-t border-t-white mt-4">
+        <div class="w-fit mx-auto">© 2025 Sewanu Isaiah.</div>
+      </div>
+    </section>
+  </body>
+  <script src="./script.js" ></script>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "V_JwzefgqExdlJyP-",
+      });
+   })();
+</script>
+</html>
