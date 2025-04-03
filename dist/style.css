@@ -379,8 +379,14 @@
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
+  }
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
+  }
+  .mt-7 {
+    margin-top: calc(var(--spacing) * 7);
   }
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
@@ -388,11 +394,17 @@
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
+  .mt-30 {
+    margin-top: calc(var(--spacing) * 30);
+  }
   .mt-\[32px\] {
     margin-top: 32px;
   }
   .mt-\[64px\] {
     margin-top: 64px;
+  }
+  .mt-\[200px\] {
+    margin-top: 200px;
   }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
@@ -511,9 +523,6 @@
   .h-\[50px\] {
     height: 50px;
   }
-  .h-\[347px\] {
-    height: 347px;
-  }
   .h-\[450px\] {
     height: 450px;
   }
@@ -558,9 +567,6 @@
   }
   .w-\[300px\] {
     width: 300px;
-  }
-  .w-auto {
-    width: auto;
   }
   .w-fit {
     width: fit-content;
@@ -986,9 +992,6 @@
   .gap-x-\[64px\] {
     column-gap: 64px;
   }
-  .gap-x-\[128px\] {
-    column-gap: 128px;
-  }
   .gap-x-\[200px\] {
     column-gap: 200px;
   }
@@ -1178,10 +1181,6 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .border-2 {
-    border-style: var(--tw-border-style);
-    border-width: 2px;
-  }
   .border-4 {
     border-style: var(--tw-border-style);
     border-width: 4px;
@@ -1256,6 +1255,9 @@
   }
   .bg-\(color\:--my-color\) {
     background-color: var(--my-color);
+  }
+  .bg-\[\#0f72e3\] {
+    background-color: #0f72e3;
   }
   .bg-\[\#1A1E23\] {
     background-color: #1A1E23;
@@ -1512,6 +1514,9 @@
   }
   .py-\[64px\] {
     padding-block: 64px;
+  }
+  .pt-1 {
+    padding-top: calc(var(--spacing) * 1);
   }
   .pt-2 {
     padding-top: calc(var(--spacing) * 2);
@@ -2241,11 +2246,6 @@
       font-size: 64px;
     }
   }
-  .sm\:items-center {
-    @media (width >= 640px) {
-      align-items: center;
-    }
-  }
   .sm\:justify-center {
     @media (width >= 640px) {
       justify-content: center;
@@ -2254,11 +2254,6 @@
   .sm\:px-\[64px\] {
     @media (width >= 640px) {
       padding-inline: 64px;
-    }
-  }
-  .sm\:py-\[64px\] {
-    @media (width >= 640px) {
-      padding-block: 64px;
     }
   }
   .md\:w-\[40\%\] {

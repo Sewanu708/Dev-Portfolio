@@ -42,6 +42,11 @@ contact.addEventListener("click", (e) => {
   document.querySelector(".contact").scrollIntoView({ behavior: "smooth" });
 });
 
+const letTalk = document.getElementById("letsTalk");
+letTalk.addEventListener("click", (e) => {
+  e.preventDefault();
+  document.querySelector(".contact").scrollIntoView({ behavior: "smooth" });
+});
 document.getElementById("submit").addEventListener("click", sendMail);
 function sendMail(e) {
   e.preventDefault();
